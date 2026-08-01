@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.treblereel.gwt.jakarta.websocket</groupId>
+        <artifactId>tests</artifactId>
+        <version>0.1</version>
+    </parent>
+
+    <artifactId>j2cl-tests-websocket-parent</artifactId>
+    <packaging>pom</packaging>
+    <name>GWT/J2CL Jakarta WebSocket Tests :: J2CL</name>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <quarkus.version>3.37.0</quarkus.version>
+        <j2cl.maven.plugin.version>0.23.8</j2cl.maven.plugin.version>
+        <j2cl.processors.version>0.10</j2cl.processors.version>
+    </properties>
+
+    <modules>
+        <module>client</module>
+        <module>server</module>
+    </modules>
+
+</project>
